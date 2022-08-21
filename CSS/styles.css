@@ -131,7 +131,7 @@ section {
 /* СЕКЦІЯ ГЕРОЙЙЙЙЙЙ */
 .hero {
   padding-top: 200px;
-  padding-bottom: 210px;
+  padding-bottom: 200px;
   background-color: #2f303a;
 }
 .div-hero {
@@ -166,13 +166,15 @@ section {
   letter-spacing: 0.06em;
   cursor: pointer;
   border-radius: 4px;
+  min-width: 216px;
+  height: 50px;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #188ce8;
 }
-
+/*секція HERO*/
 /* секція про нас*/
 .about-title {
   margin-bottom: 10px;
@@ -185,11 +187,21 @@ section {
   line-height: 1.7;
 }
 
+.about-list {
+  display: flex;
+  gap: 30px;
+}
+/*Секція про нас*/
 /* секція що ми робимо */
 .list-whattodo {
   display: flex;
   gap: 30px;
 }
+
+.section-pad {
+  padding-top: 0px;
+}
+/*секція що ми робимо*/
 /* секція про нашу команду */
 
 .section-title {
@@ -213,6 +225,34 @@ section {
   line-height: 1.19;
 }
 
+.div-member {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 54px;
+  padding-bottom: 54px;
+  background-color: var(--therd-text-color);
+}
+
+.cards-color:nth-child(n + 7) {
+  border: 1px solid #eeeeee;
+}
+
+.list-member {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
+}
+
+.marg-member:not(:last-child) {
+  margin-right: 30px;
+}
+
+.color-team {
+  background-color: #f5f4fa;
+}
+/*секція про нашу команду*/
 /* сторінка портфоліо */
 /* кнопки */
 .folio-title {
@@ -302,36 +342,5 @@ section {
   display: flex;
   flex-direction: column;
 }
-/*ABOUT US*/
-.about-list {
-  display: flex;
-  gap: 30px;
-}
-/*ABOUT US*/
-/*MEMBER TEAM*/
-.div-member {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 54px;
-  padding-bottom: 54px;
-  background-color: var(--therd-text-color);
-}
 
-.cards-color:nth-child(n + 7) {
-  border: 1px solid #eeeeee;
-}
 
-.list-member {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  margin-bottom: 50px;
-}
-.marg-member:not(:last-child) {
-  margin-right: 30px;
-}
-
-.color-team {
-  background-color: #f5f4fa;
-}
