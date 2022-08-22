@@ -35,7 +35,7 @@ ol {
   padding-left: 0;
 }
 
-section {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -69,6 +69,7 @@ section {
 .link {
   text-decoration: none;
 }
+
 /* тут розташоване logo Webstudio і ссилки HEADER */
 .logo {
   margin-right: 93px;
@@ -78,12 +79,15 @@ section {
   font-size: 26px;
   line-height: 1.2;
 }
+
 .web {
   color: var(--accent-color);
 }
+
 .list-marg:not(:last-child) {
   margin-right: 50px;
 }
+
 .nav-link {
   color: var(--secondary-text-color);
   font-weight: 500;
@@ -115,8 +119,11 @@ section {
 .nav-addres:focus {
   color: var(--accent-color);
 }
+
 .head-container {
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-container {
@@ -125,8 +132,6 @@ section {
 }
 
 .my-head {
-  padding-top: 24px;
-  padding-bottom: 25px;
   border: 1px solid #ececec;
 }
 
@@ -147,14 +152,11 @@ section {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
-}
-.div-hero {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  text-align: center;
 }
 
 .hero-title {
+  margin: 0 auto;
   margin-bottom: 30px;
   color: var(--therd-text-color);
   font-weight: 900;
@@ -167,6 +169,7 @@ section {
 }
 
 .hero-btn {
+  margin: 0 auto;
   padding: 10px 32px;
   color: var(--therd-text-color);
   background-color: var(--accent-color);
@@ -180,6 +183,7 @@ section {
   letter-spacing: 0.06em;
   cursor: pointer;
   border-radius: 4px;
+  border: none;
   min-width: 216px;
   height: 50px;
 }
@@ -188,6 +192,7 @@ section {
 .hero-btn:focus {
   background-color: #188ce8;
 }
+
 /*секція HERO*/
 /* секція про нас*/
 .about-title {
@@ -205,6 +210,11 @@ section {
   display: flex;
   gap: 30px;
 }
+
+.about-width {
+  min-width: 270px;
+}
+
 /*Секція про нас*/
 /* секція що ми робимо */
 .list-whattodo {
@@ -214,7 +224,9 @@ section {
 
 .section-pad {
   padding-top: 0px;
+  padding-bottom: 94px;
 }
+
 /*секція що ми робимо*/
 /* секція про нашу команду */
 
@@ -227,6 +239,7 @@ section {
 }
 
 .team-member {
+  text-align: center;
   margin-bottom: 10px;
   color: var(--secondary-text-color);
   font-weight: 500;
@@ -235,16 +248,13 @@ section {
 }
 
 .team-text {
+  text-align: center;
   font-size: 16px;
   line-height: 1.19;
 }
 
 .div-member {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 54px;
-  padding-bottom: 54px;
+  padding: 24px 30px;
   background-color: var(--therd-text-color);
 }
 
@@ -266,6 +276,7 @@ section {
 .color-team {
   background-color: #f5f4fa;
 }
+
 /*секція про нашу команду*/
 /* сторінка портфоліо */
 /* кнопки */
@@ -281,7 +292,9 @@ section {
   cursor: pointer;
   border-radius: 4px;
   border-color: transparent;
+  padding: 6px 22px;
 }
+
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   color: var(--therd-text-color);
@@ -310,9 +323,11 @@ section {
   flex-wrap: wrap;
   gap: 30px;
 }
+
 /* адреса і контакти для футера тут і задній фон для нього */
 
 .logo-foot {
+  display: block;
   margin-bottom: 20px;
   color: var(--therd-text-color);
   font-family: "Raleway", sans-serif;
@@ -345,13 +360,7 @@ section {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .list-foot {
   margin-bottom: 9px;
 }
-
-.foot-container {
-  display: flex;
-  flex-direction: column;
-}
-
-
