@@ -267,30 +267,31 @@ ol {
   display: flex;
   justify-content: center;
   gap: 30px;
-    }
-
- .list-bottoms{
-  display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin-bottom: 50px;
- }
-
-.color-team {
-  background-color: var(--therd-text-color);
 }
+
+
 .color-member-team {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 /*секція про нашу команду*/
 /* сторінка портфоліо */
 /* кнопки */
 
+.list-bottoms {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
+}
+
+.color-team {
+  background-color: #F5F5F5;
+}
 .portfolio-btn {
   font-family: inherit;
   color: var(--secondary-text-color);
-  background-color: #f5f4fa;
+  background-color: #ebebf4;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
