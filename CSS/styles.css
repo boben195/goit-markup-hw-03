@@ -285,9 +285,6 @@ ol {
   margin-bottom: 50px;
 }
 
-.color-team {
-  background-color: #F5F5F5;
-}
 .portfolio-btn {
   font-family: inherit;
   color: var(--secondary-text-color);
@@ -314,6 +311,10 @@ ol {
 }
 
 /* головна секція */
+.border-li {
+  border: 1px solid #EEEEEE;
+}
+
 .portfolio-title {
   color: var(--secondary-text-color);
   font-size: 18px;
@@ -329,7 +330,7 @@ ol {
 .list-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 27px;
 }
 
 /* адреса і контакти для футера тут і задній фон для нього */
